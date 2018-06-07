@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/tomonarifeehan/AssistantProject/issues"
   },
-  "homepage": "https://github.com/tomonarifeehan/AssistantProject#readme"
+  "homepage": "https://github.com/tomonarifeehan/AssistantProject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
