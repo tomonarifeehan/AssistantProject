@@ -18,6 +18,14 @@
   "homepage": "https://github.com/tomonarifeehan/AssistantProject#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+<<<<<<< HEAD
     "express": "^4.16.3"
+=======
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+>>>>>>> ff54a27b0fc0b36e251747e8aaf1b78cc94dbbe8
   }
 }
