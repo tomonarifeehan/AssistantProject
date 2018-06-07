@@ -18,7 +18,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/errors", function(req, res) {
-    res.render("error");
+    res.render("errors");
 })
 
 //Starts the app on the port we defined earlier.
