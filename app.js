@@ -1,14 +1,14 @@
 var express     = require('express');
-    bodyParser  = require('body-parser');
-    path        = require('path');
-    app         = express();
+var bodyParser  = require('body-parser');
+var path        = require('path');
+var app         = express();
 
 //Sets server port.
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'ejs')
 
 //Gives us access the files in our `public` folder, so going to http://yourwebsite.com/ will open index.html, located in the `public` folder.
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/scripts')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
